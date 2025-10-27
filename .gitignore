@@ -1,4 +1,4 @@
 # environment files
 .env
 *.pyc
-products.db
+# products.db
