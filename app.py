@@ -55,7 +55,7 @@ def init_db():
 
 @app.route("/")
 def home():
-    return jsonify({"msg": "FLASK WEB SERVER is running!"})
+    return jsonify({"msg": "FLASK WEB SERVER is running!(made by Devansh Gupta)"})
 
 
 @app.route("/products" , methods=["GET"])
