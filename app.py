@@ -66,7 +66,7 @@ def get_products():
     return jsonify([dict(row) for row in rows])
 
 @app.route("/products", methods=["POST"])
-
+@require_token
 def add_products():
     data=request.get_json()
     name=data.get("name")
